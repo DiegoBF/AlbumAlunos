@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+header {
+	margin: 0 auto;
+	text-align: center;
+}
+
+body {
+	width: 60%;
+	margin: 0 auto;
+}
+
+section {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.botao {
+	border: 1px solid #CCCCCE;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 rgba(0, 0, 0, .3), 0 2px 7px rgba(0, 0, 0, 0.2);
+	color: #616165;
+	display: block;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #FFF;
+	padding: 5px 15px;
+	position: relative;
+	width: 160px;
+}
+
+section#botoes {
+	margin: 4% 0 2% 0 ;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a.ativo {
+	color: white;
+}
+
+nav a {
+	background-color: #101010;
+	padding: 5px 15px;
+	color: gray;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+nav a:hover {
+	color: white;
+}
+
+fieldset {
+	margin: 0 auto;
+	width: 800px;
+	padding: 1em;
+	border: thin solid #CCC;
+	border-radius: 1em;
+}
+
+form div+div {
+	margin-top: 1em;
+}
+
+label {
+	display: inline-block !important;
+	min-width: 100px;
+	width: 200px;
+	text-align: right !important;
+	color: black !important;
+	vertical-align: top;
+}
+
+.divBotao {
+	text-align: center;
+}

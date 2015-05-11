@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+section {
+	text-align: center;
+}
+
+figure img {
+	margin-top: 10px;	
+	border: thick ridge white;
+	box-shadow: 25px 15px 5px black;
+	border-radius: 25px;
+}
+
+figure img:hover {
+	opacity: 1;
+}
+
+figure {
+	background-color: gray;
+	box-shadow: 30px 20px 10px #888888;
+	border-radius: 25px;
+}
+
+figcaption {
+	margin: 0 auto;
+	width: 50%;
+	color: black;
+	text-align: justify;
+}
+
+figcaption ul li {
+	text-align: left;
+	list-style-position: inside;
+}
+
+figcaption dl dt {
+	text-align: center;
+}
+
+section figure {
+	margin: 0 auto;
+}
